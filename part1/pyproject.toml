@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "part1"
+version = "0.1.0"
+description = ""
+authors = ["Viktor <asgardcasting@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+alembic = "^1.14.0"
+fastapi = "^0.115.6"
+sqlalchemy = "^2.0.36"
+psycopg2 = "^2.9.10"
+pydantic = "^2.10.3"
+uvicorn = {extras = ["standard"], version = "^0.32.1"}
+libgravatar = "^1.0.4"
+python-jose = "^3.3.0"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-multipart = "^0.0.19"
+fastapi-mail = "^1.4.2"
+python-dotenv = "^1.0.1"
+redis = "^5.2.1"
+pydantic-settings = "^2.6.1"
+fastapi-limiter = "^0.1.6"
+cloudinary = "^1.41.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

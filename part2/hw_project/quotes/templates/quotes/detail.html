@@ -1,0 +1,6 @@
+{% extends "quotes/base.html" %} {% load extract_tags %} {% block content %}
+
+<h1>{{quote.author}}</h1>
+<p>Quote: <b>{{quote.text}}</b></p>
+<p>Tags: <small> {{ quote.tags|tags }} </small></p>
+{% endblock %}
